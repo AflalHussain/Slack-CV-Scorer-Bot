@@ -1,0 +1,27 @@
+{
+  "name": "slack-cv-bot-demo",
+  "version": "1.0.0",
+  "description": "Slack bot for CV scoring - Teamther.ai demo",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "slack",
+    "bot",
+    "cv",
+    "resume",
+    "scoring"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@slack/bolt": "^3.17.1",
+    "dotenv": "^16.4.1",
+    "axios": "^1.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
